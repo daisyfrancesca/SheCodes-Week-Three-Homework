@@ -5,7 +5,7 @@
 }
 
 body {
-  margin-top: 200px;
+  margin-top: 100px;
 }
 
 h1,
@@ -51,6 +51,7 @@ p {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+  justify-content: center;
 }
 
 .secondary-link {
@@ -86,4 +87,21 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+
+  h1 {
+    font-size: 54px;
+  }
+
+  .mb-3 {
+    align-content: center;
+    text-align: center;
+  }
+
+  .mt-5 {
+    display: block;
+    text-align: center;
+  }
 }
